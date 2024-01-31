@@ -1,0 +1,40 @@
+.jfx-button {
+    -jfx-button-type: RAISED;
+    -fx-text-fill: #000;
+    -fx-font-size: 16;
+}
+
+/*!* 鼠标悬停时，按钮突出 *!*/
+.jfx-button:hover{
+    -fx-background-color: white;
+}
+
+/* 按钮选中时，按钮突出 */
+.jfx-button:focused{
+    -fx-background-color: white;
+}
+
+/* 修改Tab中文本的颜色 */
+.tab-label {
+    -fx-text-fill: #383838;
+}
+
+
+/* 子代选择器，Tab选中的时候选择其子元素tab-label */
+.tab:selected .tab-label {
+    -fx-text-fill: #1E90FF;
+}
+
+/* 修改Tab中背景颜色*/
+.jfx-tab-pane .headers-region {
+    -fx-background-color: #fff;
+}
+.jfx-tab-pane .tab-header-background {
+    -fx-background-color: #fff;
+}
+
+
+#oa {
+    -fx-font-size: 14;
+}
+
